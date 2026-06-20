@@ -1,0 +1,19 @@
+{
+  "name": "figma-driller",
+  "version": "0.1.0",
+  "description": "Owned, plugin-free Figma .fig reader: decode a .fig (ZIP→Kiwi) and extract its design-token system (Variables + published Styles) to DTCG, with a memory-bounded lazy decoder for large files.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/api/ingest-fig.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "fzstd": "^0.1.1",
+    "kiwi-schema": "^0.5.0",
+    "pako": "^2.1.0"
+  }
+}

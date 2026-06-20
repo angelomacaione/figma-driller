@@ -1,0 +1,5 @@
+node_modules/
+*.log
+.DS_Store
+# local .fig specimens (point AMACA_FIG_DIR here to run the gated tests)
+*.fig
